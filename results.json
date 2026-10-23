@@ -6,5 +6,13 @@
     "latency_ms_median_bs1": 7.252,
     "latency_ms_p95_bs1": 8.471,
     "throughput_img_per_s": 1020.8
+  },
+  "int8_static": {
+    "name": "int8_static",
+    "accuracy_pct": 90.38,
+    "size_mb": 0.334,
+    "latency_ms_median_bs1": 7.083,
+    "latency_ms_p95_bs1": 10.967,
+    "throughput_img_per_s": 1333.2
   }
 }
