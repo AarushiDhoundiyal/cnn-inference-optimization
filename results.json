@@ -1,0 +1,10 @@
+{
+  "fp32_baseline": {
+    "name": "fp32_baseline",
+    "accuracy_pct": 90.42,
+    "size_mb": 1.136,
+    "latency_ms_median_bs1": 7.252,
+    "latency_ms_p95_bs1": 8.471,
+    "throughput_img_per_s": 1020.8
+  }
+}
