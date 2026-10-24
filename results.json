@@ -14,5 +14,29 @@
     "latency_ms_median_bs1": 7.146,
     "latency_ms_p95_bs1": 9.82,
     "throughput_img_per_s": 1341.6
+  },
+  "pruned_50": {
+    "name": "pruned_50",
+    "accuracy_pct": 90.29,
+    "size_mb": 1.136,
+    "latency_ms_median_bs1": 7.312,
+    "latency_ms_p95_bs1": 8.842,
+    "throughput_img_per_s": 981.4
+  },
+  "pruned_70": {
+    "name": "pruned_70",
+    "accuracy_pct": 89.91,
+    "size_mb": 1.136,
+    "latency_ms_median_bs1": 7.461,
+    "latency_ms_p95_bs1": 9.882,
+    "throughput_img_per_s": 1008.9
+  },
+  "pruned_90": {
+    "name": "pruned_90",
+    "accuracy_pct": 85.31,
+    "size_mb": 1.136,
+    "latency_ms_median_bs1": 7.633,
+    "latency_ms_p95_bs1": 9.57,
+    "throughput_img_per_s": 1023.6
   }
 }
