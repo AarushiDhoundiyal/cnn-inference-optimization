@@ -3,17 +3,17 @@
     "name": "fp32_baseline",
     "accuracy_pct": 90.42,
     "size_mb": 1.136,
-    "latency_ms_median_bs1": 7.321,
-    "latency_ms_p95_bs1": 11.239,
-    "throughput_img_per_s": 1022.5
+    "latency_ms_median_bs1": 7.243,
+    "latency_ms_p95_bs1": 8.895,
+    "throughput_img_per_s": 1023.3
   },
   "int8_static": {
     "name": "int8_static",
     "accuracy_pct": 90.38,
     "size_mb": 0.334,
-    "latency_ms_median_bs1": 7.146,
-    "latency_ms_p95_bs1": 9.82,
-    "throughput_img_per_s": 1341.6
+    "latency_ms_median_bs1": 7.081,
+    "latency_ms_p95_bs1": 8.029,
+    "throughput_img_per_s": 1343.8
   },
   "pruned_50": {
     "name": "pruned_50",
@@ -38,5 +38,13 @@
     "latency_ms_median_bs1": 7.633,
     "latency_ms_p95_bs1": 9.57,
     "throughput_img_per_s": 1023.6
+  },
+  "onnx_fp32": {
+    "name": "onnx_fp32",
+    "accuracy_pct": 90.42,
+    "size_mb": 1.096,
+    "latency_ms_median_bs1": 2.087,
+    "latency_ms_p95_bs1": 2.623,
+    "throughput_img_per_s": 2083.0
   }
 }
